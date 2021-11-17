@@ -1,0 +1,16 @@
+#contactheader{
+    margin-top: 100px;
+    text-align: center;
+}
+#contact{
+    overflow: hidden;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 12%;
+}
+#contact img{
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
