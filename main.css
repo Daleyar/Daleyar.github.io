@@ -1,38 +1,84 @@
-#home{
+/* #navbar {
+    display: inline-block;
+} */
+nav{
+    flex: 1;
+    text-align: right;
+    margin-top: 100;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #0f1f7c;
+}
+#home {
     margin-top: 100px;
     font-size: 30px;
     text-align: center;
 }
-#mainpicture{
+#mainpicture {
     margin-top: 100px;
     text-align: center;
 }
-h1, p{
+h1, p, h2 {
     color: whitesmoke;
 }
-#aboutmeheader{
+#aboutmeheader {
     margin-top: 100px;
     font-size: 35px;
     text-align: center;
 }
-#aboutme{
+#aboutme {
     margin-top: 50px;
     text-align: center;
     font-size: 25px;
 }
-#contactheader{
+#projectsheader {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#projects {
     margin-top: 100px;
     font-size: 35px;
     text-align: center;
 }
-#contact{
+.card {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.card-deck {
+    padding-right: 5%;
+    max-width: 80%;
+    margin-left: 25%;
+}
+#contactheader {
+    margin-top: 100px;
+    font-size: 35px;
+    text-align: center;
+}
+#contact {
     overflow: hidden;
     text-align: center;
     padding-left: 25%;
     padding-right: 25%;
-    padding-bottom: 12%;
 }
-#contact img{
+#contact img {
     height: 25px;
     margin: 20px;
     cursor: pointer;
