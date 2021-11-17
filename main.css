@@ -1,5 +1,28 @@
+#home{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+#mainpicture{
+    margin-top: 100px;
+    text-align: center;
+}
+h1, p{
+    color: whitesmoke;
+}
+#aboutmeheader{
+    margin-top: 100px;
+    font-size: 35px;
+    text-align: center;
+}
+#aboutme{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
 #contactheader{
     margin-top: 100px;
+    font-size: 35px;
     text-align: center;
 }
 #contact{
@@ -10,7 +33,7 @@
     padding-bottom: 12%;
 }
 #contact img{
-    height: 20px;
+    height: 25px;
     margin: 20px;
     cursor: pointer;
 }
